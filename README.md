@@ -5,4 +5,6 @@
 
 ### To-Do
 - [x] ~~incorporate scrollreveal~~  
-- [] complete "contact" functionality
+- [ ] complete "contact" functionality
+[x] ~~incorporate scrollreveal~~  
+[ ] incorporate scrollreveal
