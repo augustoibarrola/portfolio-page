@@ -258,7 +258,7 @@ img{
 }
 
 .skills_container{
-    row-gap: 2rem;
+    row-gap: 2rem; 
     text-align: center
 }
 
@@ -461,6 +461,9 @@ img{
         align-items: center;
         text-align: initial;
     }
+    .about__container{
+        padding-right: 11.5rem;
+    }
     .about_img img{
         width: 300px
     }
@@ -484,5 +487,8 @@ img{
     }
     .home__img{
         right: 10%
+    }
+    .about__container{
+        padding-right: 11.5rem;
     }
 }
