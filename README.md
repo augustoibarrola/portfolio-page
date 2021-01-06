@@ -9,4 +9,5 @@
 - [ ] complete "contact" functionality
 - [ ] upload photos 
 - [ ] rewrite about section  
+- [ ] rework skills section
 
