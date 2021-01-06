@@ -274,7 +274,13 @@ img{
     margin-bottom: var(--mb-4)
 }
 
-.row {margin: 0 -5px;}
+.row {
+    margin: 0 -5px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .row:after {
     content: "";
@@ -348,6 +354,7 @@ img{
     flex-direction: row;
     border-radius: 25px;
     position: relative;
+    margin: 1.5%
 }
 
 .img-avatar {
