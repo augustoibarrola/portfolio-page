@@ -8,4 +8,5 @@
 - [x] ~~incorporate scrollreveal~~  
 - [ ] complete "contact" functionality
 - [ ] upload photos 
+- [ ] rewrite about section  
 
