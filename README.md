@@ -14,4 +14,6 @@
     - [x] ~~rework cards into grid~~
     - [ ] each card should be hover when moused over
     - [ ] description in each should be about work done in particular technology and other related technologies
+    - [x] ~~description should be coming from the right, not centered~~
     - [ ] cards should have scrollreveal functionality 
+    - [ ] images should come from ./assets/images, not URL links

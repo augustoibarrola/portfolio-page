@@ -519,6 +519,7 @@ img{
 .card .desc {
     padding: 0.5rem 1rem;
     font-size: 12px;
+    text-align: right;
   }
 
 .work__container{
