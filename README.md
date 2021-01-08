@@ -3,7 +3,7 @@
 
 ---
 
-### To-Do
+## To-Do
 
 - [x] ~~incorporate scrollreveal~~  
 - [ ] complete "contact" functionality
