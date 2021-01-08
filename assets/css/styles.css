@@ -576,12 +576,24 @@ img{
     margin-bottom: var(--mb-4)
 }
 
+.footer__text{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-1);
+    margin-top: .5rem;
+    margin-right: 1rem
+
+}
+
 .footer__social{
-    margin-bottom: var(--mb-4)
+    margin-bottom: var(--mb-4);
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2rem;
 }
 
 .footer__icon{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #fff;
     margin: 0 var(--mb-2)
 

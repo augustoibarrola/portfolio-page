@@ -20,3 +20,8 @@
 - [x] ~~description should be coming from the right, not centered~~
 - [ ] cards should have scrollreveal functionality 
 
+#### footer section
+
+- [x] ~~contact icons (git, linkedin, etc) + phone number at right of footer ~~
+- [ ] reduce height of footer
+
