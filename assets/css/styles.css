@@ -554,6 +554,10 @@ img{
     margin-bottom: var(--mb-4);
 }
 
+.contact__subtitle{
+    margin-bottom: var(--mb-3)
+}
+
 .contact__button{
     display: block;
     border: none;
