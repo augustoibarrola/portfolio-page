@@ -423,7 +423,7 @@ img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     /* change below to various images of technologies known with javascript */
-    background-image: url(https://lh3.googleusercontent.com/proxy/PkpUwGvJWpia44bbmiXHZ00D542W_1ktQNctzEGZN_tp3KarWj6BgfXN5le9OXkao7lSd-NN7DBZrtK8auVdkFMpXf0_r6RXogI3rV8);
+    background-image: url(https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png);
     background-position: bottom center;
     background-size: cover;
 }
@@ -434,9 +434,11 @@ img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     /* change below to various images of technologies known with javascript */
-    background-image: url(https://cdn.iconscout.com/icon/free/png-512/html5-10-569380.png);
+    background-image: url("https://www.seekpng.com/png/detail/80-803527_html5-css3-and-javascript-logos-html5-logo-png.png");
     background-position: bottom center;
     background-size: cover;
+    /* position: absolute;  */
+    /* top: 20px */
 }
 
 .portada__postgresql{
@@ -458,12 +460,12 @@ img{
 }
 
 .tech-image__javascript{
-    max-width: 180%;
-    height: auto;
+    max-width: 401%;
+    height: 136%;
     display: block;
     position: absolute; 
     right: -50px; 
-    top: 16px
+    top: 6px
 }
 
 .tech-image__rails{
@@ -484,19 +486,19 @@ img{
 }
 
 .tech-image__css{
-    max-width: 135%;
+    max-width: 110%;
     height: auto;
     display: block;
     position: absolute; 
-    top: 4px; 
+    top: 7px; 
 }
 
 .tech-image__html{
-    max-width: 135%;
+    max-width: 110%;
     height: auto;
     display: block;
     position: absolute; 
-    top: 19px; 
+    top: 17px; 
 }
 
 .title-total {
