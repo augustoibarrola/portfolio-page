@@ -11,6 +11,7 @@
 - [x] ~~complete "contact" functionality~~
 - [ ] upload photos 
 - [ ] rewrite about section  
+- [ ] scrolled elements should only remain on page after initial scroll effect 
 
 #### skills & technologies section
 
