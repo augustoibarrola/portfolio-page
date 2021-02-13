@@ -12,6 +12,7 @@
 - [ ] upload photos 
 - [ ] rewrite about section  
 - [ ] scrolled elements should only remain on page after initial scroll effect 
+- [ ] move bio to top tier next to name until (proper photo is available) 
 
 #### skills & technologies section
 

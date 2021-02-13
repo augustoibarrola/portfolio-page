@@ -651,9 +651,12 @@ img{
         margin-bottom: 0;
         margin-right: var(--mb-4)
     }
-    .home__img{
+    /* .home__img{
         width: 457px;
         bottom: 15%
+    } */
+    .home__bio{
+        width: 457px;
     }
     .about__container, .skills_container{
         grid-template-columns: repeat(2,1fr);
