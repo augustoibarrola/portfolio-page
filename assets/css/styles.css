@@ -665,7 +665,7 @@ img{
     } */
     .home__bio{
         width: 457px;
-        padding: 7rem 0rem 0rem 1rem
+        padding: 4rem 0rem 0rem 2rem
     }
     .about__container, .skills_container{
         grid-template-columns: repeat(2,1fr);
