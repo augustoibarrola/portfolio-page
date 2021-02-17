@@ -13,7 +13,6 @@
 - [ ] rewrite about section  
 - [ ] scrolled elements should only remain on page after initial scroll effect 
 - [ ] move bio to top tier next to name until (proper photo is available) 
-- [ ] add `<strong>` tags to skills descriptions 
 
 #### skills & technologies section
 
@@ -22,9 +21,11 @@
 - [x] ~~description in each should be about work done in particular technology and other related technologies~~
 - [x] ~~description should be coming from the right, not centered~~
 - [ ] cards should have scrollreveal functionality 
+- [x] ~~add `<strong>` tags to skills descriptions~~
+- [ ] rewrite skills  
 
 #### footer section
 
-- [x] ~~contact icons (git, linkedin, etc) + phone number at right of footer ~~
+- [x] ~~contact icons (git, linkedin, etc) + phone number at right of footer~~
 - [ ] reduce height of footer
 
