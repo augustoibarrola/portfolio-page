@@ -636,7 +636,6 @@ img{
     }
     .nav{
         height: calc(var(--header-height) + 1rem);
-        background-color: red
     }
     .nav__list{
         display: flex;
