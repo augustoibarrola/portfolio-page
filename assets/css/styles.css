@@ -708,6 +708,9 @@ img{
 }
 
 @media screen and (max-width: 375px){
+    .l-main{
+        padding: 0rem 1.2rem 0rem 1.2rem;
+    }
     .nav__logo{
         font-size: .9rem;
     }
@@ -727,11 +730,13 @@ img{
         width: calc(100% - 2rem);
         margin-left: var(--mb-2);
         margin-right: var(--mb-2);
-        background-color: yellowgreen
+    }
+    .home__title{
+        margin-bottom: var(--mb-3);
     }
     .home__social{
         flex-direction: row;
-        align-self: flex-end
+        align-self: flex-end;
     }
     .home__social-icon{
         width: max-content;
@@ -749,16 +754,26 @@ img{
         text-align: center;
     }
     .section-title::after{
-        top: 2.4rem
+        top: 2.4rem;
     }
     .about__subtitle{
         text-align: center;
     }
     #skills{
-        padding: 14rem 0rem 4rem 0rem;
+        padding: 17rem 0rem 3rem 0rem;
     }
     .card{
         margin: .5rem 0rem .5rem 0rem;
+    }
+    .skills__title{
+        padding: 0rem 1rem 0rem 0rem;
+    }
+    .img-avatar{
+        visibility: hidden;
+    }
+    .title-total {
+        padding: 1.5em .5em 1.5em 1.5em;
+        z-index: 1;
     }
     .contact__subtitle{
         margin-bottom: var(--mb-3);
