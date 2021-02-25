@@ -653,7 +653,7 @@ img{
         color: var(--second-color)
     }
     .home{
-        height: 75vh
+        height: 85vh
     }
     .home__data{
         align-self: flex-end
