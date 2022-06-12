@@ -1,198 +1,175 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css"> 
-        
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Augusto's Portfolio Website</title> 
-    </head>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <body>
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Augusto Tomás Ibarrola-Crespin</a>
+    <title>Augusto's Portfolio Website</title>
+</head>
+
+<body>
+    <!-- Banner -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Augusto Tomás Ibarrola-Crespin</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#cv" class="nav__link">CV</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- Left-hand intro block -->
+        <section class="home section" id="home">
+
+            <div class="home-grid">
+                <div class="home__bio ">
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">Augusto</span></br>Full
+                            Stack Web Developer</h1>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/augustotibarrola/" class="home__social-icon"
+                            target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/augustoibarrola" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+
                 </div>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home"class="nav__link active" >Home</a></li>
-                        <li class="nav__item"><a href="#skills"class="nav__link" >Skills</a></li>
-                        <li class="nav__item"><a href="#contact"class="nav__link" >Contact</a></li>
+
+                <div class="home__bio ">
+                    <h1 class="about__subtitle">I'm Augusto</h1>
+                    <p>
+                        Creativity and curiosity are two of my strongest attributes, and I tackle each new challenge
+                        with a passion that stems from a love of learning. These attributes have led me into the
+                        exciting chapter of my professional career in Web Development, which keeps me learning every
+                        day. My background in the hospitality field has cultivated in me the perseverance and grace
+                        necessary to thrive in high-paced work environments while always maintaining a strong team
+                        spirit. I bring urgency and responsibility to all my projects to bring forward optimal results.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CV section -->
+        <section class="cv section" id="cv">
+            <h1 class="about_subtitle">CV</h1>
+            <div>
+
+                <div class="main-grid">
+
+                    <div>
+                        Software Engineer at Infosys (Client: UBS) New York City, NY 
+                    </div>
+                    <ul>
+                        <li>
+                            Analyzed enterprise middleware applications for vulnerabilities and necessary updates, and
+                            suggested best remediation
+                            options compliant with client’s guidelines.
+                        </li>
+                        <li>
+                            Solely implemented first updates to key Infrastructure as a Service (IaaS) Enterprise
+                            Application – responsible for
+                            handling inter-application communication relating to user VM subscriptions globally – in over 8
+                            years
+                        </li>
+                        <li>
+                            Updates performed include zero-day CVE remediations and credential security tightening of
+                            non-personal technical
+                            accounts integrated within the software through certificate assignment and implementation of a
+                            credential management
+                            tool (HashiCorp Vault) to the software.
+                            
+                        </li>
+                        <li>
+                            Adhered to all necessary Key Procedural Controls (KPCs) of the Software Development Life Cycle
+                            (SDLC), including Quality
+                            Assurance (QA) Gates, and Architectural and System Dependencies.
+                            
+                        </li>
+                        <li>
+                            Updated software documentation relating to implemented upgrades and remediations on various
+                            platforms, including Central
+                            Confluence and Gitlab Wiki.
+                            
+                        </li>
+                        <li>
+                            Led a team of three developers through project deliverables, hands-on training and daily
+                            stand-ups, organizing team
+                            effort through Kanban-styled GitLab Issue Boards.
+                            
+                        </li>
+                        <li>
+                            Onboarded, trained, upskilled, and worked collaboratively across multiple teams – Production,
+                            System Administrators,
+                            Azure Stack and Migration, among others – in a fully-remote DevOps environment.
+                        </li>
+                        <li>
+                            Experience developing fully functional SPAs and integrating them with a Spring backend.  
+                        </li>
                     </ul>
                 </div>
+
+                <div class="main-grid">
                 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="bx bx-menu"></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <section class="home home-section" id="home"> 
-
-                <div class="home-grid">
-                    <div class="home__bio ">
-                        <div class="home__data">
-                            <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">Augusto</span></br>Full Stack Web Developer</h1>
-                            <a href="#contact" class="button"> Contact </a>
-                        </div>
-                        
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/augustotibarrola/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
-                            <a href="https://github.com/augustoibarrola" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                        </div>
-                            
-                    </div>
-    
-                    <div class="home__bio "> 
-                        <h2 class="about__subtitle">I'm Augusto</h2> 
-                        <p>
-                            Creativity and curiosity are two of my strongest attributes, and I tackle each new challenge with a passion that stems from a love of learning. These attributes have led me into the exciting chapter of my professional career in Web Development, which keeps me learning every day. My background in the hospitality field has cultivated in me the perseverance and grace necessary to thrive in high-paced work environments while always maintaining a strong team spirit. I bring urgency and responsibility to all my projects to bring forward optimal results. 
-                        </p>
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="skills section" id="skills">
-                <h2 class="section-title"> Skills & Technologies </h2>
-
-                <div class="skills__container bd-grid">
                     <div>
-
-                        <div class="row">
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__html" src="assets/Images/html5-logo.png">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__html"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">HTML5</h2>
-                                    
-                                        <div class="desc">
-                                            Strong understanding of front end HTML5 fundamentals, and its relationship to CSS and Javascript
-                                        </div>
-               
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__css" src="assets/Images/css-logo-png-1-png-image-css-logo-png-2000_2804.png">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__css"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">CSS3</h2>
-                                    
-                                        <div class="desc">
-                                            Highly proficient in <strong>CSS Grid</strong>, <strong>Flexbox</strong>, as well as in frameworks like <strong>Bootstrap</strong>, <strong>Tailwind</strong>, and <strong>Semantic-UI</strong>.
-                                        </div>
-               
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image" src="https://miro.medium.com/max/959/1*Qc0XxYm-qAZL-7tjjlNfrg.png">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__ruby"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">Ruby</h2>
-                                    
-                                        <div class="desc"> 
-                                            Clear understanding of <strong>Object-Oriented Programming</strong> and <strong>debugging</strong>, and comfortable navigating and incorporating new gems (and personally passionate about the ruby language).
-                                        </div>
-               
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__rails" src="https://devstickers.com/assets/img/pro/6uc0.png">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__rails"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">Ruby on Rails</h2>
-                                    
-                                        <div class="desc">
-                                            Strong understanding and experience working with both rails' <strong>MVC-framwork</strong> – including controllers, views, embedded ruby, etc. – to create full stack web applications, as well as using rails as a simple API  back end with full <strong>CRUD</strong> functionality.
-                                        </div>
-               
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__javascript" src="https://i1.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__javascript"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">Javascript</h2>
-                                    
-                                        <div class="desc">
-                                            Skilled in using Vanilla Javascript to create attractive, intuitive, and user-friendly front end web applications. Proficient in <strong>DOM manipulation</strong>, <strong>fetch API</strong>, <strong>AJAX</strong>, and never afraid to explore a new library with <strong>npm</strong>.
-                                        </div>
-               
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__react" src="https://appmasters.io/static/react-47ce6e77f039020ee2e76a10c1e988e9.png">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__react"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">React</h2>
-                                    
-                                        <div class="desc">
-                                            Passionate about creating engaging user interfaces using the popular Javascript framework. Firm understanding of popular React libraries such as <strong>react-router</strong>.
-                                        </div>
-               
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="card">
-                                <div class="img-avatar">
-                                    <img class="tech-image__postgresql" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg">
-                                </div>
-                                <div class="card-text">
-                                  <div class="portada__postgresql"></div>
-                                    <div class="title-total">   
-                                        <h2 class="skills__title">PostgreSQL, SQLite</h2>
-                                    
-                                        <div class="desc">
-                                            Experience working with <strong>relational databases</strong> and using SQL to query databases. 
-                                        </div>
-               
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-
+                        Operations Coordinator at Fooda New York City 
                     </div>
-                </div >
+                    <ul>
+                        <li>
+                            Maintained client-facing website by managing and standardizing data input by onboarding new partners and initiating best
+                            practices from the beginning of the partnership.
+
+                        </li>
+
+                        <li>
+                            Documented various company procedures and created training manuals for internal team members.
+
+                        </li>
+                        <li>
+                            Coordinated daily, weekly, and ad hoc events for a range of clients with diverse budgets, specifications, and needs
+                            across New York City, while at the same time cultivating strong professional relationships to ensure continued
+                            partnership.
+
+                        </li>
+                        <li>
+                            Coached team members on troubleshooting daily issues, website concerns, and company procedures, and fostered a culture
+                            of collective progress by advocating for and motivating team members to succeed.
+
+                        </li>
+                        <li>
+                            Received company-wide recognition in August ‘19 for demonstrating resilience, perseverance, and exceptional professional
+                            growth; Promoted within the first 6 months to lead a team of 15 Onsite Coordinators.
+
+                        </li>
+                       
+                        
+                    </ul>
+                </div>
+                    
+                </div>
+                
+                
+                
             </section>
+        </main>
+    </body>
+
+</html>
